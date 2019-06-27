@@ -1,6 +1,7 @@
 from socket import *
-HOST = '127.0.0.1'
-PORT = 21567
+print('Input Host IP')
+HOST = input()    #'172.31.1.144'
+PORT = 54600
 BUFSIZ = 1024
 ADDR = (HOST,PORT)
 tcpCliSock = socket(AF_INET,SOCK_STREAM)
@@ -15,3 +16,4 @@ while True:
 		break
 	print(data.decode('utf-8'))
 tcpCliSock.close()
+
