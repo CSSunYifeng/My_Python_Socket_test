@@ -1,0 +1,12 @@
+CMake Error at /home/f91/catkin_ws/devel/share/control_toolbox/cmake/control_toolboxConfig.cmake:113 (message):
+  Project 'control_toolbox' specifies
+  '/home/f91/catkin_ws/src/control_toolbox/include' as an include dir, which
+  is not found.  It does neither exist as an absolute directory nor in
+  '/home/f91/catkin_ws/src/control_toolbox//home/f91/catkin_ws/src/control_toolbox/include'.
+  Check the issue tracker
+  'https://github.com/ros-controls/control_toolbox/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  ros_controllers-kinetic-devel/effort_controllers/CMakeLists.txt:5 (find_package)
+
