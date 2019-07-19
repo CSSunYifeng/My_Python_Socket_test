@@ -4,3 +4,7 @@ My python socket test
 https://www.cnblogs.com/alex-415/p/6912294.html
 
 http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html
+
+
+
+2019.7.19
